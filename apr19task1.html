@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day24 Task-1</title>
+    <style>
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 150px 150px;
+    background-color:skyblue;
+    grid-template-rows: 100px 100px  ;
+    height: 300px;
+    row-gap: 8px;
+    column-gap: 8px;
+    width: 550px;
+    padding: 20px;
+    justify-content: center;
+   align-content: center;
+
+ 
+}
+.grid-container div{
+   text-align: center;
+   background-color: black;
+   color: white;
+   font-size: 22px;
+   justify-content: center;
+   align-content: center;
+   margin-left: 0px;
+}
+    </style>
+</head>
+<body>
+   <center> <div class="grid-container">
+        <div style="grid-column: 1/4;"><h3>Header</h3></div>
+        <div style="grid-row: 2/4;"><h3 style="margin-top:50px;">Menu</h3></div>
+        <div><h3>Main</h3></div>
+        <div><h3>Right</h3></div>
+        <div style="grid-column: 2/4;"><h3>Footer</h3></div>
+    </div></center>
+</body>
+</html>
